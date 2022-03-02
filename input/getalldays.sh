@@ -1,3 +1,4 @@
+#!/bin/sh
 # Downloads all inputs into the input/folder
 # Use this file responsibly
 
@@ -21,6 +22,8 @@ fi
 cookie="$(<cookie.txt)"
 END=25
 for ((i=1;i<=END;i++)); do
-    curl --cookie "session=$cookie" "https://adventofcode.com/$1/day/$i/input" > "day$i.txt"
+    curl --cookie "session=$cookie" "https://adventofcode.com/$1/day/$i/input" > "day$i.txt" &
 done
+
+wait
 

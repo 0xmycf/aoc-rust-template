@@ -1,3 +1,4 @@
+#!/bin/sh
 # adds numbers 1-250 to day0.txt
 touch day0.txt
 END=250
