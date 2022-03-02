@@ -6,11 +6,11 @@ That means to set up this project you have to do the following steps:
 1. Clone this template
 2. create a file `touch input/cookie.txt`
    and add your session cookie (without the *session=* part)
-   you can get the cookie with the help of your developer tools
-   of your website.
+   you can get the cookie with the help of the developer tools
+   of your browser.
    3 will fail if you skip this step.
 3. Change into the input directory
-   and download all inputs: `cd input && sh ./getalldays.sh 2021`
+   and download all inputs: `cd input && sh ./getalldays.sh 2021` (or any other available year)
 4. To start [visit the advent of code website](https://adventofcode.com).
    Then go into `main/src/days/day...`  where ... represents the day you wanna solve.
 
