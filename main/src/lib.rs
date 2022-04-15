@@ -100,7 +100,7 @@ fn register_solutions<'a>() -> Vec<SolutionFunc<'a>> {
 
 /// Returns a Vector which holds tuples of the expected inputs (Part a, Part b)
 /// for each day
-pub fn register_expected_solutions<'a>() -> Vec<(String , String)> {
+pub fn register_expected_solutions() -> Vec<(String , String)> {
     let mut solutions: Vec<(String              , String)> = Vec::new();
     solutions.push((DayOne::expected_a()        , DayOne::expected_b()));
     solutions.push((DayTwo::expected_a()        , DayTwo::expected_b()));
